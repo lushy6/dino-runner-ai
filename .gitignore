@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+dino_record.json
+*.exe
+desktop.ini

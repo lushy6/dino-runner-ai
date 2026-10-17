@@ -1,0 +1,109 @@
+import os
+import math
+
+ANCHO, ALTO = 900, 340
+SUELO_Y = 272
+FPS = 60
+
+DINO_X = 110
+ALTO_DINO = 46
+ANCHO_DINO = 44
+ALTO_AGACHADO = 24
+ANCHO_AGACHADO = 60
+
+GRAVEDAD = 1.1
+GRAVEDAD_EXTRA = 1.5
+SALTO_VEL = 16.0
+CORTE_SALTO = 6.5
+
+VEL_INICIAL = 6.0
+VEL_MAX = 12.5
+VEL_MENU = 2.2
+FACTOR_VEL = 0.008
+
+GAP_MIN, GAP_MAX = 400, 640
+FACTOR_GAP = 14
+
+VEL_GRUPO_2 = 7.0
+VEL_GRUPO_3 = 8.5
+
+PAJARO_NIVELES = {
+    "bajo": SUELO_Y - 30,
+    "medio": SUELO_Y - 54,
+    "alto": SUELO_Y - 86,
+}
+
+CANGREJO_VEL = 2.0
+VEL_CANGREJO = 6.5
+VEL_PELIGROS = 7.5
+FOSO_ANCHO = (70, 100)
+METEORO_G = (0.02, 0.25)
+METEORO_BANDAS = {
+    "alto": SUELO_Y - 72,
+    "cabeza": SUELO_Y - 32,
+    "bajo": SUELO_Y - 10,
+}
+
+ARCHIVO_RECORD = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "dino_record.json"
+)
+
+COLOR_DINO = (96, 168, 120)
+COLOR_DINO_BORDE = (54, 110, 78)
+COLOR_DINO_PANZA = (158, 210, 172)
+COLOR_OJO = (252, 252, 252)
+COLOR_PUPILA = (28, 38, 32)
+
+CACTUS = (74, 150, 86)
+CACTUS_BORDE = (46, 104, 60)
+PAJARO = (66, 78, 102)
+PAJARO_ALA = (108, 122, 152)
+PAJARO_PICO = (236, 178, 86)
+
+POLVO = (206, 186, 150)
+SUELO_TIERRA = (224, 198, 150)
+SUELO_TIERRA2 = (210, 182, 132)
+SUELO_LINEA = (170, 140, 92)
+GRASS = (132, 168, 96)
+PIEDRA = (190, 176, 150)
+
+HILLS_FAR = (158, 184, 178)
+HILLS_NEAR = (122, 164, 120)
+
+SOL = (255, 222, 120)
+LUNA = (232, 238, 255)
+
+TEXTO_CLARO = (246, 249, 251)
+TEXTO_DORADO = (255, 214, 110)
+SOMBRA_TEXTO = (20, 24, 30)
+
+CLAVES_CIELO = [
+    (0.00, (104, 196, 244), (196, 232, 248)),
+    (0.25, (250, 146, 92), (255, 206, 138)),
+    (0.50, (18, 24, 58), (44, 54, 100)),
+    (0.75, (120, 104, 168), (240, 184, 168)),
+    (1.00, (104, 196, 244), (196, 232, 248)),
+]
+
+NOTAS = {
+    "-": 0,
+    "F2": 87.31,
+    "G2": 98.00,
+    "A2": 110.00,
+    "C3": 130.81,
+    "E3": 164.81,
+    "F3": 174.61,
+    "G3": 196.00,
+    "A3": 220.00,
+    "C4": 261.63,
+    "D4": 293.66,
+    "E4": 329.63,
+    "F4": 349.23,
+    "G4": 392.00,
+    "A4": 440.00,
+    "B4": 493.88,
+    "C5": 523.25,
+    "D5": 587.33,
+    "E5": 659.26,
+}
+
