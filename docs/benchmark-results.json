@@ -1,0 +1,145 @@
+{
+  "protocol": "Actual game update/collision loop; 60 simulated FPS; seeds recorded; no rendering.",
+  "pygame_version": "2.6.1",
+  "requested_seconds_per_run": 600,
+  "survived_runs": 8,
+  "total_runs": 8,
+  "runs": [
+    {
+      "seed": 0,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 719,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 1,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 710,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 2,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 700,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 3,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 701,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 4,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 675,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 5,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 687,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 6,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 693,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    },
+    {
+      "seed": 7,
+      "frames": 36000,
+      "simulated_seconds": 600.0,
+      "survived": true,
+      "score": 44664,
+      "reached_top_speed": true,
+      "hazards_spawned": 683,
+      "hazard_types": [
+        "alto",
+        "bajo",
+        "cangrejo",
+        "foso",
+        "meteorito",
+        "pajaro"
+      ]
+    }
+  ]
+}

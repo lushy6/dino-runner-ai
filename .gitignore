@@ -5,3 +5,4 @@ venv/
 dino_record.json
 *.exe
 desktop.ini
+.pytest_cache/
